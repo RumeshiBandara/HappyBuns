@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+ .bg-maroon { background-color: #780116; }
+        .text-maroon { color: #780116; }
+        .bg-gold { background-color: #ffb700; }
+        .text-gold { color: #ffb700; }
+        .border-gold { border-color: #ffb700; }
