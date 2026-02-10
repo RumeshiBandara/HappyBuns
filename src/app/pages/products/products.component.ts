@@ -7,7 +7,7 @@ import { CategorySectionComponent } from "../../components/category-section/cate
 
 @Component({
   selector: 'app-products',
-  imports: [SearchBarComponent, ProductCardHolderComponent, CategorySectionComponent],
+  imports: [SearchBarComponent, ProductCardHolderComponent, CategorySectionComponent, SideBarComponent],
   templateUrl: './products.component.html',
   styleUrl: './products.component.css'
 })
