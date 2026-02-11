@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-category-section',
-  imports: [],
+  imports: [RouterLink,RouterLinkActive],
   templateUrl: './category-section.component.html',
   styleUrl: './category-section.component.css'
 })

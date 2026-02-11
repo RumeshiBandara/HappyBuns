@@ -1,19 +1,25 @@
 <nav class="flex flex-col gap-6">
-    <button class="flex flex-col items-center text-gold transition hover:scale-110">
-        <div class="bg-white/10 p-3 rounded-xl mb-1"><i class="fas fa-hamburger text-xl"></i></div>
+    <a routerLink="/burgers" routerLinkActive="text-gold scale-110" [routerLinkActiveOptions]="{ exact: true }"
+        class="flex flex-col items-center text-white/70 transition">
+        <div class="bg-white/5 p-3 rounded-xl mb-1"><i class="fas fa-hamburger text-xl"></i></div>
         <span class="text-xs font-semibold">Burgers</span>
-    </button>
-    <button class="flex flex-col items-center text-white/70 hover:text-gold transition hover:scale-110">
+    </a>
+
+    <a routerLink="/sides" routerLinkActive="text-gold scale-110" [routerLinkActiveOptions]="{ exact: true }"
+        class="flex flex-col items-center text-white/70 transition">
         <div class="bg-white/5 p-3 rounded-xl mb-1"><i class="fas fa-utensils text-xl"></i></div>
-        
         <span class="text-xs font-semibold">Sides</span>
-    </button>
-    <button class="flex flex-col items-center text-white/70 hover:text-gold transition hover:scale-110">
+    </a>
+
+    <a routerLink="/drinks" routerLinkActive="text-gold scale-110" [routerLinkActiveOptions]="{ exact: true }"
+        class="flex flex-col items-center text-white/70 transition">
         <div class="bg-white/5 p-3 rounded-xl mb-1"><i class="fas fa-glass-whiskey text-xl"></i></div>
         <span class="text-xs font-semibold">Drinks</span>
-    </button>
-    <button class="flex flex-col items-center text-white/70 hover:text-gold transition hover:scale-110">
+    </a>
+
+    <a routerLink="/desserts" routerLinkActive="text-gold scale-110" [routerLinkActiveOptions]="{ exact: true }"
+        class="flex flex-col items-center text-white/70 transition">
         <div class="bg-white/5 p-3 rounded-xl mb-1"><i class="fas fa-ice-cream text-xl"></i></div>
         <span class="text-xs font-semibold">Desserts</span>
-    </button>
+    </a>
 </nav>
