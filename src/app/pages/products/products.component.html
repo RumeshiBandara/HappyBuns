@@ -1,13 +1,26 @@
 <body class="bg-gray-100 font-sans h-screen flex overflow-hidden">
-    <aside class="w-24 bg-maroon flex flex-col items-center py-6 gap-8 shadow-xl">
-        <div class="text-white font-bold text-xl mb-4 text-center px-2">Happy<br>Buns</div>
-        <app-category-section></app-category-section>
-    </aside>
-    <main class="flex-1 flex flex-col bg-white">
-        <app-search-bar></app-search-bar>
-        <app-product-card-holder></app-product-card-holder>
 
-    </main>
+  
+  <aside class="hidden md:flex md:w-24 bg-maroon flex-col items-center py-6 gap-8 shadow-xl">
+    <div class="text-white font-bold text-xl mb-4 text-center px-2">
+      Happy<br>Buns
+    </div>
+    <app-category-section></app-category-section>
+  </aside>
+
+  
+  <main class="flex-1 flex flex-col bg-white">
+
+    <app-search-bar></app-search-bar>
+
+    <div class="flex-1 overflow-y-auto">
+      <app-product-card-holder></app-product-card-holder>
+    </div>
+
+  </main>
+
+  <div class="hidden lg:block">
     <app-side-bar></app-side-bar>
+  </div>
 
 </body>
