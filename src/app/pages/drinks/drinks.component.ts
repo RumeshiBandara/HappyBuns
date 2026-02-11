@@ -5,11 +5,11 @@ import { ProductCardHolderComponent } from "../../components/product-card-holder
 import { SideBarComponent } from "../../components/side-bar/side-bar.component";
 
 @Component({
-  selector: 'app-burgers',
+  selector: 'app-drinks',
   imports: [CategorySectionComponent, SearchBarComponent, ProductCardHolderComponent, SideBarComponent],
-  templateUrl: './burgers.component.html',
-  styleUrl: './burgers.component.css'
+  templateUrl: './drinks.component.html',
+  styleUrl: './drinks.component.css'
 })
-export class BurgersComponent {
+export class DrinksComponent {
 
 }
