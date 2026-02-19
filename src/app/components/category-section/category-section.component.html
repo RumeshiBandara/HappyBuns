@@ -1,0 +1,25 @@
+<nav class="flex flex-col gap-6">
+    <a routerLink="/burgers" routerLinkActive="text-gold scale-110" [routerLinkActiveOptions]="{ exact: true }"
+        class="flex flex-col items-center text-white/70 transition">
+        <div class="bg-white/5 p-3 rounded-xl mb-1"><i class="fas fa-hamburger text-xl"></i></div>
+        <span class="text-xs font-semibold">Burgers</span>
+    </a>
+
+    <a routerLink="/sides" routerLinkActive="text-gold scale-110" [routerLinkActiveOptions]="{ exact: true }"
+        class="flex flex-col items-center text-white/70 transition">
+        <div class="bg-white/5 p-3 rounded-xl mb-1"><i class="fas fa-utensils text-xl"></i></div>
+        <span class="text-xs font-semibold">Sides</span>
+    </a>
+
+    <a routerLink="/drinks" routerLinkActive="text-gold scale-110" [routerLinkActiveOptions]="{ exact: true }"
+        class="flex flex-col items-center text-white/70 transition">
+        <div class="bg-white/5 p-3 rounded-xl mb-1"><i class="fas fa-glass-whiskey text-xl"></i></div>
+        <span class="text-xs font-semibold">Drinks</span>
+    </a>
+
+    <a routerLink="/desserts" routerLinkActive="text-gold scale-110" [routerLinkActiveOptions]="{ exact: true }"
+        class="flex flex-col items-center text-white/70 transition">
+        <div class="bg-white/5 p-3 rounded-xl mb-1"><i class="fas fa-ice-cream text-xl"></i></div>
+        <span class="text-xs font-semibold">Desserts</span>
+    </a>
+</nav>
